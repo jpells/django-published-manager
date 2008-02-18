@@ -1,5 +1,5 @@
 from django.db import models
-from django.conf import settings
+from published_manager import settings
 
 class PublishedManager(models.Manager):
     def get_query_set(self):
